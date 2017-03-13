@@ -1,0 +1,16 @@
+{
+  "name": "rtd-display",
+  "version": "1.0.0",
+  "description": "RTD digital sign for Pi Day 2017 @ ReadyTalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Wostenberg",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^1.1.1",
+    "lodash": "^4.17.4",
+    "rtd-realtime": "github:pawosty/rtd-realtime"
+  }
+}
