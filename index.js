@@ -27,7 +27,7 @@ FeedData.loadUnionStationData(function(cb) {
 			data.forEach(function(aTrip) {
 				if(aTrip.trip_update.stop_time_update.departure && aTrip.trip_update.stop_time_update.departure.time.low) {
 					var displayDate = new Date(aTrip.trip_update.stop_time_update.departure.time.low * 1000);
-					console.log("Route " + aTrip.trip_update.trip.route_id + 
+					console.log("Route " + aTrip.trip_update.trip.route_id +
 					" leaving from " + aTrip.trip_update.trip.stop_id_name + " toward " + aTrip.trip_update.trip.headsign  + " at " + displayDate.toTimeString());
 				}
 			});
